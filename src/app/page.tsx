@@ -14,15 +14,16 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <motion.h1
-          className="text-5xl font-extrabold mb-4 flex items-center gap-2"
-          initial={{ scale: 0.8 }}
-          animate={{ scale: 1 }}
-          transition={{ delay: 0.4, duration: 0.6 }}
-        >
-          <FaRocket className="text-purple-400" />
-          BrainBlast ⚡️
-        </motion.h1>
+       <motion.h1
+  className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 sm:mb-4 flex items-center gap-1 sm:gap-2"
+  initial={{ scale: 0.8 }}
+  animate={{ scale: 1 }}
+  transition={{ delay: 0.4, duration: 0.6 }}
+>
+  <FaRocket className="text-purple-400" />
+   BrainBlast ⚡️
+</motion.h1>
+
 
         <motion.p
           className="text-lg text-purple-200 mb-6 max-w-md"
